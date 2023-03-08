@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medicines",
+  "info": {
+    "singularName": "medicine",
+    "pluralName": "medicines",
+    "displayName": "Medicine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Obat": {
+      "type": "text"
+    },
+    "tanggal_pembelian": {
+      "type": "datetime"
+    },
+    "Harga": {
+      "type": "decimal"
+    },
+    "stock": {
+      "type": "integer"
+    }
+  }
+}
